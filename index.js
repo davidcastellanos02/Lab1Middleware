@@ -8,7 +8,7 @@ var instance2_status
 setInterval(() => {
     instance1_status = script.getStatus()
     //instance2_status = script.getStatus()
-    console.log(instance1_status)
+    console.log("En index: "+instance1_status)
 }, 4000)
 
 app.get('/', (req, res) =>{

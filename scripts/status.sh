@@ -1,7 +1,6 @@
 #!/bin/bash
 
 date +"%D-%R" >> i1Log
-echo lola
 curl 192.168.1.57:1111 >> i1Log
 date +"%D-%R" >> i2Log
 curl 192.168.1.71:1111 >> i2Log
