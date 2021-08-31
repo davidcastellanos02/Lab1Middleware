@@ -1,6 +1,6 @@
 const express = require('express')
 const app = express()
-const script = require('status.js')
+const script = require('./source/status')
 
 var instance1_status
 var instance2_status
