@@ -6,10 +6,9 @@ var instance1_status
 var instance2_status
 
 setInterval(() => {
-    instance1_status = script.getStatus('instance1')
-    instance2_status = script.getStatus('instance2')
+    instance1_status = script.getStatus()
+    //instance2_status = script.getStatus()
     console.log(instance1_status)
-    console.log(instance2_status)
 }, 4000)
 
 console.log(instance1_status)
