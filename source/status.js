@@ -8,4 +8,8 @@ function getStatus(instance){
     return result
 }
 
+module.exports = {
+    "getStatus" : getStatus
+}
+
 //57
