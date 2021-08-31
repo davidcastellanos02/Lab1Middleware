@@ -11,9 +11,6 @@ setInterval(() => {
     console.log(instance1_status)
 }, 4000)
 
-console.log(instance1_status)
-console.log(instance2_status)
-
 app.get('/', (req, res) =>{
         res.sendFile(__dirname+'/index.html')
 })
